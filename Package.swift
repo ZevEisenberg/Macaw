@@ -16,8 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/drmohundro/SWXMLHash",
-            from: "6.0.0"
+            url: "https://github.com/ZevEisenberg/SWXMLHash", .branch("main")
         )
     ],
     targets: [
